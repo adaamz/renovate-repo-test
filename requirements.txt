@@ -135,7 +135,7 @@ jsonschema==3.2.0
     #   tm-pythonlib
 kombu==4.6.11
     # via celery
-mako==1.1.4
+mako==1.2.4
     # via alembic
 markupsafe==2.0.1
     # via
