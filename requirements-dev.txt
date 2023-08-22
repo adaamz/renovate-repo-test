@@ -6,7 +6,7 @@
 #
 --extra-index-url https://gitlab.tmloc.com/api/v4/groups/7/-/packages/pypi/simple
 
-alembic==1.6.5
+alembic==1.11.3
     # via
     #   -c requirements.txt
     #   pytest-alembic
