@@ -168,7 +168,7 @@ pylint==2.17.4
     # via -r requirements-dev.in
 pyparsing==3.0.8
     # via packaging
-pyrsistent==0.18.0
+pyrsistent==0.19.3
     # via
     #   -c requirements.txt
     #   jsonschema

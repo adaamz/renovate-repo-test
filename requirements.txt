@@ -192,7 +192,7 @@ pymysql==1.0.3
     #   -r requirements.in
     #   aiomysql
     #   tm-pythonlib
-pyrsistent==0.18.0
+pyrsistent==0.19.3
     # via jsonschema
 python-dateutil==2.8.1
     # via
