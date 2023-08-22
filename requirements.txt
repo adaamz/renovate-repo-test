@@ -82,7 +82,7 @@ flask-opentracing==1.1.0
     # via
     #   -r requirements.in
     #   tm-pythonlib
-frozenlist==1.3.3
+frozenlist==1.4.0
     # via
     #   aiohttp
     #   aiosignal
