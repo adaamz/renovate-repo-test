@@ -25,7 +25,7 @@ attrs==22.2.0
     #   pytest
 autoflake==1.4
     # via -r requirements-dev.in
-black==22.3.0
+black==22.12.0
     # via datamodel-code-generator
 certifi==2021.5.30
     # via
