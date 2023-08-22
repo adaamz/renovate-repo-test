@@ -152,7 +152,7 @@ prance==0.21.2
     # via
     #   -c requirements.txt
     #   datamodel-code-generator
-psutil==5.9.1
+psutil==5.9.5
     # via pact-python
 py==1.10.0
     # via pytest
