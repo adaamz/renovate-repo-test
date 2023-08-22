@@ -3,7 +3,7 @@
   "enabledManagers": ["pip-compile"],
   "pip-compile": {
     "fileMatch": ["(^|/)requirements(-\\w+)?\\.in$"]
-  }
+  },
   "prConcurrentLimit": 0,
   "prHourlyLimit": 0,
   "recreateWhen": "always"
