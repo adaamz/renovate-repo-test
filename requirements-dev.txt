@@ -23,7 +23,7 @@ attrs==22.2.0
     #   -c requirements.txt
     #   jsonschema
     #   pytest
-autoflake==1.4
+autoflake==1.7.8
     # via -r requirements-dev.in
 black==22.3.0
     # via datamodel-code-generator
