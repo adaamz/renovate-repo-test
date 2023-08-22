@@ -1,0 +1,19 @@
+--extra-index-url https://gitlab.tmloc.com/api/v4/groups/7/-/packages/pypi/simple
+-c requirements.txt
+astroid
+autoflake
+coverage[toml]
+datamodel-code-generator
+mock
+pact-python
+pylint
+pytest==6.0.2
+pytest-alembic
+pytest-cov
+pytest-asyncio
+pytest-flask
+pytest-mock
+pytest-freezegun
+requests-mock
+tm-contracttesting
+yapf
