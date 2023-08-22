@@ -154,7 +154,7 @@ prance==0.21.2
     #   datamodel-code-generator
 psutil==5.9.1
     # via pact-python
-py==1.10.0
+py==1.11.0
     # via pytest
 pydantic[email]==1.8.2
     # via
