@@ -141,7 +141,7 @@ markupsafe==2.0.1
     # via
     #   jinja2
     #   mako
-maxminddb==2.2.0
+maxminddb==2.4.0
     # via geoip2
 msgpack==1.0.2
     # via
