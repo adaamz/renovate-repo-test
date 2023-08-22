@@ -10,7 +10,7 @@ alembic==1.6.5
     # via
     #   -c requirements.txt
     #   pytest-alembic
-anyio==3.6.1
+anyio==3.7.1
     # via starlette
 argcomplete==1.12.3
     # via datamodel-code-generator
