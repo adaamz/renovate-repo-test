@@ -72,7 +72,7 @@ editdistance==0.5.3
     # via -r requirements.in
 fastavro==1.4.2
     # via -r requirements.in
-flask==2.0.1
+flask==2.3.3
     # via
     #   -r requirements.in
     #   connexion
