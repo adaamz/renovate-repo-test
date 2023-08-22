@@ -104,7 +104,7 @@ jsonschema==3.2.0
     #   -c requirements.txt
     #   openapi-schema-validator
     #   openapi-spec-validator
-lazy-object-proxy==1.6.0
+lazy-object-proxy==1.9.0
     # via astroid
 mako==1.1.4
     # via
