@@ -54,7 +54,7 @@ coverage[toml]==5.5
     #   pytest-cov
 datamodel-code-generator==0.21.4
     # via -r requirements-dev.in
-dill==0.3.6
+dill==0.3.7
     # via pylint
 dnspython==2.1.0
     # via email-validator
