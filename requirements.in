@@ -31,7 +31,7 @@ pydantic
 pymysql
 python-dateutil
 python-editor
-python-redis-lock~=3.7.0
+python-redis-lock~=4.0.0
 python-snappy
 pyyaml
 redis
