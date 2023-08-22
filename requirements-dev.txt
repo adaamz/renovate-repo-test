@@ -264,7 +264,7 @@ typing-extensions==4.5.0
     #   pydantic
     #   pylint
     #   starlette
-urllib3==1.26.6
+urllib3==1.26.16
     # via
     #   -c requirements.txt
     #   pact-python
