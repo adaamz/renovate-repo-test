@@ -40,7 +40,7 @@ celery[gevent,redis]==4.4.7
     # via
     #   -r requirements.in
     #   tm-pythonlib
-certifi==2021.5.30
+certifi==2021.10.8
     # via requests
 cffi==1.14.5
     # via cryptography

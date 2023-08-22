@@ -27,7 +27,7 @@ autoflake==1.4
     # via -r requirements-dev.in
 black==22.3.0
     # via datamodel-code-generator
-certifi==2021.5.30
+certifi==2021.10.8
     # via
     #   -c requirements.txt
     #   requests
