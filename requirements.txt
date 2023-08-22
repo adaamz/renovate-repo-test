@@ -111,7 +111,7 @@ ipy==1.1
     #   tm-dataquery
 iso3166==1.0.1
     # via schwifty
-isodate==0.6.0
+isodate==0.6.1
     # via openapi-schema-validator
 itsdangerous==2.0.1
     # via flask
