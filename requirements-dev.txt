@@ -148,7 +148,7 @@ platformdirs==2.4.0
     #   pylint
 pluggy==0.13.1
     # via pytest
-prance==0.21.2
+prance==0.22.11.4.0
     # via
     #   -c requirements.txt
     #   datamodel-code-generator
