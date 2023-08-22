@@ -7,7 +7,7 @@ datamodel-code-generator
 mock
 pact-python
 pylint
-pytest==6.0.2
+pytest==7.4.0
 pytest-alembic
 pytest-cov
 pytest-asyncio
