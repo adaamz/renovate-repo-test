@@ -2,7 +2,7 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "enabledManagers": ["pip-compile"],
   "pip-compile": {
-    "fileMatch": ["(^|/)requirements(-\w+)?\\.in$"]
+    "fileMatch": ["(^|/)requirements(-\\w+)?\\.in$"]
   }
   "prConcurrentLimit": 0,
   "prHourlyLimit": 0,
