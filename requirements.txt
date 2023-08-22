@@ -120,7 +120,7 @@ jaeger-client==4.5.0
     #   -r requirements.in
     #   tm-observe
     #   tm-pythonlib
-jinja2==3.0.1
+jinja2==3.1.2
     # via
     #   -r requirements.in
     #   flask
