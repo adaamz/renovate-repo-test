@@ -90,7 +90,7 @@ isort==5.9.1
     # via
     #   datamodel-code-generator
     #   pylint
-itsdangerous==2.0.1
+itsdangerous==2.1.2
     # via
     #   -c requirements.txt
     #   flask

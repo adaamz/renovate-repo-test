@@ -113,7 +113,7 @@ iso3166==1.0.1
     # via schwifty
 isodate==0.6.0
     # via openapi-schema-validator
-itsdangerous==2.0.1
+itsdangerous==2.1.2
     # via flask
 jaeger-client==4.5.0
     # via
