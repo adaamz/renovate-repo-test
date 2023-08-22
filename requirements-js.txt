@@ -6,5 +6,5 @@
 #
 numpy==1.16.3
     # via -r requirements-js.in
-ply==3.4
+ply==3.11
     # via -r requirements-js.in
