@@ -63,7 +63,7 @@ contextlib2==21.6.0
     # via opentracing-instrumentation
 coverage==5.5
     # via -r requirements.in
-cryptography==3.4.7
+cryptography==3.4.8
     # via -r requirements.in
 databases==0.4.3
     # via -r requirements.in
