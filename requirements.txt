@@ -4,7 +4,6 @@
 #
 #    pip-compile
 #
---extra-index-url https://gitlab.tmloc.com/api/v4/groups/7/-/packages/pypi/simple
 
 aiohttp==3.8.4
     # via
@@ -286,27 +285,6 @@ threadloop==1.0.2
     # via jaeger-client
 thrift==0.13.0
     # via jaeger-client
-tm-database==1.1.4
-    # via -r requirements.in
-tm-dataquery==0.0.3
-    # via -r requirements.in
-tm-observe==1.1.1
-    # via
-    #   -r requirements.in
-    #   tm-database
-    #   tm-pythonlib
-    #   tm-stream
-tm-pythonlib[async_redis,logutils,sync_redis,wide]==2.2.1
-    # via
-    #   -r requirements.in
-    #   tm-stream
-tm-stream==1.0.5
-    # via -r requirements.in
-tm-yamlutils==1.1.0
-    # via
-    #   tm-database
-    #   tm-observe
-    #   tm-pythonlib
 tornado==5.1.1
     # via
     #   jaeger-client

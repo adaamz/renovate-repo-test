@@ -1,4 +1,3 @@
---extra-index-url https://gitlab.tmloc.com/api/v4/groups/7/-/packages/pypi/simple
 aiohttp
 aiomysql
 alembic
@@ -43,11 +42,6 @@ six
 sphinxcontrib-napoleon
 sqlalchemy
 swagger-spec-validator
-tm-database
-tm-dataquery
-tm-observe
-tm-pythonlib[wide,async_redis,sync_redis]
-tm-stream
 typing
 ua-parser
 ujson
