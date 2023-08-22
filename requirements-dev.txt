@@ -4,8 +4,6 @@
 #
 #    pip-compile requirements-dev.in
 #
---extra-index-url https://gitlab.tmloc.com/api/v4/groups/7/-/packages/pypi/simple
-
 alembic==1.6.5
     # via
     #   -c requirements.txt
@@ -45,7 +43,6 @@ click==8.0.1
     #   black
     #   flask
     #   pact-python
-    #   typer
     #   uvicorn
 coverage[toml]==5.5
     # via
@@ -119,8 +116,6 @@ mccabe==0.6.1
     # via pylint
 mock==4.0.3
     # via -r requirements-dev.in
-more-itertools==8.8.0
-    # via pytest
 mypy-extensions==0.4.3
     # via black
 openapi-schema-validator==0.1.5
@@ -135,11 +130,8 @@ packaging==21.3
     # via
     #   datamodel-code-generator
     #   pytest
-    #   tm-contracttesting
 pact-python==1.5.2
-    # via
-    #   -r requirements-dev.in
-    #   tm-contracttesting
+    # via -r requirements-dev.in
 pathspec==0.9.0
     # via black
 platformdirs==2.4.0
@@ -161,7 +153,6 @@ pydantic[email]==1.8.2
     #   -c requirements.txt
     #   datamodel-code-generator
     #   fastapi
-    #   tm-contracttesting
 pyflakes==2.4.0
     # via autoflake
 pylint==2.17.4
@@ -174,7 +165,7 @@ pyrsistent==0.18.0
     #   jsonschema
 pysnooper==0.5.0
     # via datamodel-code-generator
-pytest==6.0.2
+pytest==6.2.5
     # via
     #   -r requirements-dev.in
     #   pytest-alembic
@@ -209,7 +200,6 @@ pyyaml==5.4.1
     #   -c requirements.txt
     #   openapi-spec-validator
     #   prance
-    #   tm-contracttesting
 requests==2.28.1
     # via
     #   -c requirements.txt
@@ -254,8 +244,6 @@ tomli==1.2.2
     #   pylint
 tomlkit==0.11.8
     # via pylint
-typer==0.6.1
-    # via tm-contracttesting
 typing-extensions==4.5.0
     # via
     #   -c requirements.txt
