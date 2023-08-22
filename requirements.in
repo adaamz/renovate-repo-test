@@ -4,7 +4,7 @@ aiomysql
 alembic
 attrs
 bjoern
-celery[redis,gevent]<5
+celery[redis,gevent]<6
 connexion[swagger-ui]
 coverage
 cryptography
