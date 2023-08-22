@@ -23,7 +23,7 @@ aredis==1.1.8
     # via
     #   tm-pythonlib
     #   tm-stream
-async-timeout==4.0.2
+async-timeout==4.0.3
     # via aiohttp
 attrs==22.2.0
     # via
