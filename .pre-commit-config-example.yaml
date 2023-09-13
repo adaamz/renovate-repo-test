@@ -1,0 +1,62 @@
+default_language_version:
+  python: python3
+
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.4.0
+    hooks:
+      - id: check-yaml
+        exclude: .*\.gitlab-ci\.yml  # contains !reference tag which does not pass validation
+        args: [--allow-multiple-documents]
+      - id: check-yaml
+        name: not loadable yaml
+        args: [--allow-multiple-documents, --unsafe]
+      - id: end-of-file-fixer
+        exclude: ^.*\.(|mo|po|pot)$
+      - id: trailing-whitespace
+        exclude: ^.*\.(md|rst)$
+      - id: debug-statements
+      - id: mixed-line-ending
+      - id: check-merge-conflict
+
+  - repo: local
+    hooks:
+      - id: gettext-no-fuzzy
+        name: gettext no fuzzy string
+        language: script
+        types: [text]
+        files: ^.*messages.*.po$
+        entry: /bin/sh -c 'if grep -qP "#.*fuzzy" $0; then echo $0 && exit 1; fi'
+
+  - repo: https://github.com/myint/autoflake
+    rev: v2.2.0
+    hooks:
+      - id: autoflake
+        name: autoflake expand star imports
+        args:
+          - --in-place
+          - --expand-star-imports
+
+  - repo: https://github.com/ambv/black
+    rev: 23.7.0
+    hooks:
+      - id: black
+        types: [python]
+        args: [--target-version=py39]
+
+  - repo: https://github.com/PyCQA/isort
+    rev: 5.12.0
+    hooks:
+      - id: isort
+        args: ["--py=39", "--sp=pyproject.toml"]
+
+  - repo: https://github.com/lk16/detect-missing-init
+    rev: v0.1.6
+    hooks:
+      - id: detect-missing-init
+        args:
+          - "--create"
+          - "--track"
+          - "--python-folders"
+          - "src/"
+
