@@ -29,7 +29,7 @@ repos:
         entry: /bin/sh -c 'if grep -qP "#.*fuzzy" $0; then echo $0 && exit 1; fi'
 
   - repo: https://github.com/myint/autoflake
-    rev: v2.2.0
+    rev: v2.2.1
     hooks:
       - id: autoflake
         name: autoflake expand star imports
