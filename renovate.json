@@ -1,6 +1,6 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "enabledManagers": ["pip-compile"],
+  "enabledManagers": ["pre-commit"],
   "pip-compile": {
     "fileMatch": ["(^|/)requirements(-\\w+)?\\.in$"]
   },
