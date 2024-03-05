@@ -1,15 +1,24 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "enabledManagers": ["pre-commit"],
-  "pip-compile": {
-    "fileMatch": ["(^|/)requirements(-\\w+)?\\.in$"]
+  "constraints": {
+    "python": "==3.9"
   },
+  "pip-compile": {
+    "fileMatch": ["(^|/)requirements(-\\w+)?\\.txt$"]
+  },    
+  "pip_requirements": {
+      "enabled": false
+  },
+  "pip_setup": {
+      "enabled": false
+  },
+
   "pre-commit": {
-    "enabled": true,
+    "enabled": false,
     "fileMatch": [
       "^\\.pre-commit-config-example\\.yaml$"
     ]
-},
+  },
   "prConcurrentLimit": 0,
   "prHourlyLimit": 0,
   "recreateWhen": "always"
